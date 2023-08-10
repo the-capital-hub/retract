@@ -13,3 +13,16 @@
         font-weight: 500;
     }
 }
+
+@media (max-width: 426px) {
+    .Title {
+        h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}

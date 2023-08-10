@@ -31,4 +31,24 @@
     }
 }
 
-
+@media (max-width: 426px) {
+    .card {
+        width: 200px;
+        .firstContainer {
+            h1 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 13px;
+            }
+            img {
+                height: 50px;
+            }
+        }
+        button {
+            width: 130px;
+            padding: 10px 10px;
+            border-radius: 50px;
+        }
+    }
+}

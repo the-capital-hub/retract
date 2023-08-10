@@ -41,3 +41,19 @@
         }
     }
 }
+
+@media (max-width: 426px) {
+    .search {
+        .right {
+            padding: 5px 15px;
+            input {
+                width: 200px;
+                font-size: 12px;
+            }
+        }
+        .left {
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+}

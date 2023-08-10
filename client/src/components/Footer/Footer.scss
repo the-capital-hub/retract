@@ -59,6 +59,21 @@
             flex-direction: column;
             align-items: center;
             gap: 30px;
+            p:nth-child(1) {
+                width: 300px;
+                color: white;
+                font-size: 14px;
+                text-align: center;
+            }
+            .aboveFooterImages {
+                align-items: center;
+                p {
+                    text-align: center;
+                }
+            }
+            .input {
+                justify-content: center ;
+            }
         }
     }
 }
