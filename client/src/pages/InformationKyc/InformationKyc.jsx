@@ -20,7 +20,7 @@ const InformationKyc = () => {
 
           <section className="heading_section mb-2">
             <div className="row">
-              <div className="col-8">
+              <div className="col-lg-8">
                 <h1 className="heading-h1">
                   What Is <span style={{ color: "#E46000" }}> KYC</span>
                 </h1>
@@ -31,7 +31,7 @@ const InformationKyc = () => {
                   arcu ullamcorper.
                 </p>
               </div>
-              <div className="col-4 mobile-contactimg">
+              <div className="col-lg-4 mobile-contactimg">
                 <img src={contactIcon} alt="image" className="contactImg" />
               </div>
             </div>
@@ -91,7 +91,7 @@ const InformationKyc = () => {
         </section>
 
         <section className="video_kyc row">
-          <div className="col-8 justify_item">
+          <div className="col-lg-8 justify_item">
             <h1 className="heading-h1 margin-left">
               Video
               <span style={{ color: "#E46000" }}> KYC</span>
@@ -103,16 +103,16 @@ const InformationKyc = () => {
               ullamcorper.
             </p>
           </div>
-          <div className="col-4 kyc_image">
+          <div className="col-lg-4 kyc_image">
             <img src={videoKycIcon} alt="image" />
           </div>
         </section>
 
         <section className="document_verification row">
-          <div className="col-3 kyc_image">
+          <div className="col-lg-3 kyc_image hide-mobile-display">
             <img src={dvIcon} alt="image" />
           </div>
-          <div className="col-8 justify_item">
+          <div className="col-lg-8 justify_item">
             <h1 className="heading-h1">
               <span style={{ color: "#E46000" }}>ID</span>&nbsp; Document
               Verification
@@ -124,10 +124,13 @@ const InformationKyc = () => {
               ullamcorper.
             </p>
           </div>
+          <div className="col-lg-3 kyc_image hide-desktop-display mobile-display">
+            <img src={dvIcon} alt="image" />
+          </div>
         </section>
 
         <section className="address_kyc row">
-          <div className="col-8 justify_item">
+          <div className="col-lg-8 justify_item">
             <h1 className="heading-h1 margin-left">
               Address
               <span style={{ color: "#E46000" }}> Verification</span>
@@ -139,16 +142,16 @@ const InformationKyc = () => {
               ullamcorper.
             </p>
           </div>
-          <div className="col-4 kyc_image">
+          <div className="col-lg-4 kyc_image">
             <img src={adressIcon} alt="image" />
           </div>
         </section>
 
         <section className="face_verification row">
-          <div className="col-3 kyc_image">
+          <div className="col-lg-3 kyc_image hide-mobile-display">
             <img src={faceIcon} alt="image" />
           </div>
-          <div className="col-8 justify_item">
+          <div className="col-lg-8 justify_item">
             <h1 className="heading-h1">
               <span style={{ color: "#E46000" }}>Face</span>&nbsp; Verification
             </h1>
@@ -159,10 +162,13 @@ const InformationKyc = () => {
               ullamcorper.
             </p>
           </div>
+          <div className="col-lg-3 kyc_image hide-desktop-display mobile-display">
+            <img src={faceIcon} alt="image" />
+          </div>
         </section>
 
         <section className="two_factor row">
-          <div className="col-8 justify_item">
+          <div className="col-lg-8 justify_item">
             <h1 className="heading-h1 margin-left">
               <span style={{ color: "#E46000" }}> 2-Factor</span>Authentication
             </h1>
@@ -173,7 +179,7 @@ const InformationKyc = () => {
               ullamcorper.
             </p>
           </div>
-          <div className="col-4 kyc_image">
+          <div className="col-lg-4 kyc_image">
             <img src={twoFactIcon} alt="image" />
           </div>
         </section>

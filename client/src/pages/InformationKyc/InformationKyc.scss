@@ -1,4 +1,10 @@
 .information_kyc_container {
+    .desktop-display{
+        display: block !important;;
+    }
+    .hide-desktop-display{
+        display: none !important;;
+    }
   .heading-h1 {
     color: #000;
     font-family: Poppins;
@@ -171,6 +177,12 @@
 
 @media screen and (max-width: "768px") {
   .information_kyc_container {
+    .mobile-display{
+        display: block !important;;
+    }
+    .hide-mobile-display{
+        display: none !important;
+    }
     .heading-h1 {
       color: #000;
       font-family: Poppins;
@@ -190,7 +202,7 @@
     .heading-text {
       color: #000;
       font-family: Poppins;
-      font-size: 30px;
+      font-size: 25px;
       font-style: normal;
       font-weight: 600;
       line-height: normal;
@@ -211,6 +223,7 @@
     }
     .kyc_process {
       background: rgba(0, 0, 0, 0.96);
+      justify-content: end;
 
       .kyc_heading {
         color: #fff;
@@ -243,7 +256,7 @@
           background: rgba(95, 95, 95, 0.33);
           box-shadow: 0px 20.20757484436035px 26.94343376159668px 0px
             rgba(255, 255, 255, 0.07);
-         p {
+          p {
             color: #fff;
             font-family: Poppins;
             font-size: 12px;
@@ -260,7 +273,7 @@
     }
 
     .video_kyc {
-      padding: 60px 0px;
+      padding: 30px 0px;
       .kyc_image {
         margin: 0;
         padding: 0;
@@ -278,7 +291,7 @@
     }
 
     .document_verification {
-      padding: 0px 0px 60px 0px;
+      padding: 0px 0px 30px 0px;
       .kyc_image {
         margin: 0;
         padding: 0;
@@ -292,7 +305,7 @@
     }
 
     .address_kyc {
-      padding: 60px 0px;
+      padding: 30px 0px;
       .kyc_image {
         margin: 0;
         padding: 0;
@@ -310,7 +323,7 @@
     }
 
     .face_verification {
-      padding: 0px 0px 60px 0px;
+      padding: 0px 0px 30px 0px;
       .kyc_image {
         margin: 0;
         padding: 0;
@@ -324,7 +337,7 @@
     }
 
     .two_factor {
-      padding: 60px 0px;
+      padding: 30px 0px;
       .kyc_image {
         margin: 0;
         padding: 0;
