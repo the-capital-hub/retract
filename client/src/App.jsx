@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Contact } from "./pages";
+import Landing from "./pages/Landing/Landing";
 
 function App() {
-  return <Contact />;
+  return <Landing />;
 }
 
 export default App;
