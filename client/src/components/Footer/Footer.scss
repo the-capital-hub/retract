@@ -53,3 +53,12 @@
         margin-top: 10px;
     }
 }
+@media (max-width: 768px) {
+    .footer {
+        .footerContainer {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+}

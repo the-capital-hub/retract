@@ -1,2 +1,27 @@
 .Contact {
+    .contactContainer {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 1000px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .Contact {
+        .contactContainer {
+            .cards {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+    }
 }

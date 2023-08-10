@@ -1,3 +1,43 @@
 .search {
-    
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    width: 900px;
+    .right {
+        padding: 10px 25px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        input {
+            // padding: 10px 25px;
+            font-size: 17px;
+            width: 420px;
+            color: white;
+            background-color: black;
+            outline: none;
+            border: none;
+        }
+    }
+    .left {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -50px;
+        width: 90px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        background-color: #e46000;
+        &:hover {
+            cursor: pointer;
+        }
+        p {
+            text-align: center;
+            color: white;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }

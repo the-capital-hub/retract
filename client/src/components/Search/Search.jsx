@@ -1,11 +1,14 @@
 import "./Search.scss";
-import Button from "../Button/Button";
 
 const Search = () => {
   return (
     <div className="search">
-      <input type="text" />
-      <Button text={"Search"} />
+      <div className="right">
+        <input placeholder="Search for your query" type="text" />
+      </div>
+      <div className="left">
+        <p>Search</p>
+      </div>
     </div>
   );
 };
