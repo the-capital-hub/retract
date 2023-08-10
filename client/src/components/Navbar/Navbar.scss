@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // width: 100%;
+    padding: 15px 60px;
+    .left {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        width: 60%;
+        font-weight: 800;
+        font-size: 15px;
+        img {
+            height: 10%;
+            // width: 20%;
+        }
+        a {
+            span {
+                color: black;
+                font-weight: 400;
+                &:hover {
+                    color: #fd5901;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        gap: 30px;
+        button:nth-child(2) {
+            background: white;
+            border: 1px solid #fd5901;
+            color: black;
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+}
