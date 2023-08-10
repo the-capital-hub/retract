@@ -11,7 +11,6 @@ const Contact = () => {
           title={"How can we help you today ?"}
           subtitle={"Select from most common topic or start typing below"}
         />
-
         <Search />
       </div>
       <Footer />

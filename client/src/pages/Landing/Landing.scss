@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 30px 0;
+  margin: 80px 0;
 
   .feature-card:nth-child(2) {
     transform: rotate(10deg);
@@ -91,7 +91,7 @@
 .stat-section {
   background-color: #0d0d0d;
   padding: 50px 100px;
-  margin: 30px 0;
+  margin: 50px 0;
 
   .stat-cards {
     color: white;
@@ -100,14 +100,186 @@
       border: #44494c 1px solid;
       box-shadow: 5px 5px 10px rgba(103, 103, 103, 0.2);
       border-radius: 15px;
-      background-color: #44494C;
-      
+      background-color: #44494c;
+
       p:nth-child(2) {
         color: #e46000;
       }
 
       h2 {
         margin: 25px 0;
+      }
+    }
+  }
+}
+
+.video-section {
+  margin: 100px 0;
+
+  .video-text {
+    h3 {
+      margin: 20px 0;
+    }
+    ul {
+      font-size: larger;
+      font-weight: 400;
+    }
+  }
+}
+
+.kyc-solutions {
+  margin-bottom: 50px;
+  section {
+    margin-top: 80px;
+  }
+
+  img {
+    height: 300px;
+  }
+
+  h3 {
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  .margin-left {
+    margin-left: 10%;
+  }
+
+  .margin-right {
+    margin-right: 10%;
+  }
+
+  .facial_biometric {
+    img {
+      height: 350px;
+    }
+  }
+}
+
+.more_info {
+  background-color: #0d0d0d;
+  padding: 50px 100px;
+  margin: 50px 0;
+
+  .more_info_cards {
+    color: white;
+
+    .more_info_card {
+      border: #44494c 1px solid;
+      box-shadow: 5px 5px 10px rgba(103, 103, 103, 0.2);
+      border-radius: 15px;
+      background-color: #2f3234;
+      padding: 20px;
+
+      h6 {
+        color: #e46000;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.newsletter {
+  text-align: center;
+  margin: 40px 0;
+
+  h2 {
+    margin: 10px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .subscribe_newsletter {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 30px;
+
+    input {
+      background-color: rgb(0, 0, 0, 0.87);
+      border: none;
+      border-radius: 15px;
+      flex-basis: 40vw;
+      padding: 0 20px;
+      font-size: 0.8rem;
+    }
+
+    ::placeholder {
+      color: #ffffff;
+      letter-spacing: 1px;
+    }
+
+    button {
+      position: relative;
+      left: -30px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .feature {
+    display: none;
+  }
+  .group-4-kLX {
+    flex-direction: column;
+  }
+  .stat-section {
+    padding: 50px;
+    .stat-cards {
+      margin: 0 30px;
+    }
+  }
+  .kyc-solutions {
+    text-align: center;
+
+    section {
+      margin-top: 0;
+    }
+
+    section:nth-child(2n) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    p {
+      margin: 0 0 ;
+    }
+
+    :not(img) {
+      padding: 10px;
+    }
+
+    img {
+      height: 150px;
+    }
+
+    .margin-left {
+      margin-left: 0;
+    }
+
+    .margin-right {
+      margin-right: 0;
+    }
+
+    .facial_biometric {
+      img {
+        height: 150px;
+        margin: 10px 0;
       }
     }
   }
