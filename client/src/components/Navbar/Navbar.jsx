@@ -34,7 +34,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="navbar burger">
+    <div className="navbar burger">
       {/*logo*/}
       {/* navlinks */}
       <div className="left">
@@ -62,7 +62,9 @@ const Navbar = () => {
       </div>
 
       <div className="right">
-        <Button text="Contact Us" />
+        <a href="/contact">
+          <Button text="Contact Us" />
+        </a>
         <Button text="SME" />
       </div>
 
@@ -74,7 +76,7 @@ const Navbar = () => {
         alt=""
       />
       {showMenu && menu}
-    </nav>
+    </div>
   );
 };
 
