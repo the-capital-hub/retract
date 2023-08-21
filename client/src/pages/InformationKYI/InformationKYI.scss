@@ -1,0 +1,217 @@
+.information_kyi_container {
+  .desktop-display {
+    display: block !important;
+  }
+  .hide-desktop-display {
+    display: none !important;
+  }
+  .heading-h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .justify_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading-text {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  .heading_section {
+    .contactImg {
+      height: 140px;
+    }
+    .what-is-kyi {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }
+  .kyc_process {
+    background: rgba(0, 0, 0, 0.96);
+
+    .kyc_heading {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .more_info_cards {
+      color: white;
+      margin: auto;
+      .more_info_card {
+        border: #44494c 1px solid;
+        box-shadow: 5px 5px 10px rgba(103, 103, 103, 0.2);
+        border-radius: 15px;
+        background-color: #2f3234;
+        padding: 20px;
+
+        p {
+          font-size: 14px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .verify-investor {
+    h1 {
+      font-family: Poppins;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .investor-shufti {
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      .orange-dot {
+        background-color: orange;
+        height: 10px;
+        width: 10px;
+        margin-right: 5px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .customisable-approach {
+    h1 {
+      font-family: Poppins;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .verification-cards {
+      .verification-card {
+        padding: 30px 30px 0 30px;
+        background: #36363680;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+
+        div {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+
+  .shufti_pro_section {
+    background: rgba(0, 0, 0, 0.96);
+    .shufti_pro_cards {
+      color: white;
+      margin: auto;
+      .shufti_pro_card {
+        border: #44494c 1px solid;
+        box-shadow: 5px 5px 10px rgba(103, 103, 103, 0.2);
+        border-radius: 15px;
+        background-color: #2f3234;
+        padding: 20px;
+
+        p {
+          font-size: 14px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .information_kyc_container {
+    .mobile-display {
+      display: block !important;
+    }
+    .hide-mobile-display {
+      display: none !important;
+    }
+    .heading-h1 {
+      color: #000;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+
+    .justify_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .heading-text {
+      color: #000;
+      font-family: Poppins;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    .heading_section {
+      margin-top: 20px;
+      .what-is-kyi {
+        flex-direction: row-reverse;
+
+        .contactImg {
+          height: 160px;
+        }
+      }
+    }
+
+    .kyc_process {
+      background: rgba(0, 0, 0, 0.96);
+      justify-content: end;
+
+      .kyc_heading {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 30px;
+      }
+    }
+  }
+}
